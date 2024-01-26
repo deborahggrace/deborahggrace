@@ -61,4 +61,4 @@ if first_card == second_card:
         if first_card == second_card:
             print("We got here")
         break
-
+print("Values")
