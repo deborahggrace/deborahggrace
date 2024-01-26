@@ -9,13 +9,14 @@
 # Present the card and declare a winner
 # Here we go!
 # from random import randrange
+import random
 
 
 # def addNum(num1, num2):
 #    print(num1 + num2)
 # addNum(2, 4)
 
-def card_value(first_card, second_card, high_card, low_card):
+'''def card_value(first_card, second_card, high_card, low_card):
     first_card
     second_card
     high_card
@@ -27,17 +28,18 @@ def card_value(first_card, second_card, high_card, low_card):
     print("The Low Card is: ", low_card)
 
 card_value(1,2,3,4)
+'''
 
-def my_function(country = "Norway"):
+'''def my_function(country = "Norway"):
   print("I am from " + country)
 
 my_function("Sweden")
 my_function("India")
 my_function("America")
 my_function("Brazil")
+'''
 
 # print(randrange(11))
-import random;
 # print(random.randint(1, 10))
 first_card = random.randint(1, 10)
 second_card = random.randint(1, 10)
@@ -46,8 +48,8 @@ print("Second Random Card from the top is: ", second_card)
 
 if first_card == second_card:
     print("Tie")
-    print("First Card before is: " , first_card)
-    print("Second Card before is: " , second_card)
+    print("First Card before is: ", first_card)
+    print("Second Card before is: ", second_card)
     second_card = random.randint(1, 10)
     print("First Card after is: ", first_card)
     print("Second Card after is: ", second_card)
@@ -56,9 +58,10 @@ if first_card == second_card:
 # We need to check if the numbers are the same and redo the random
 #
 
-    while first_card < 11 :
+'''  while first_card < 11 :
         print("First Card is: " , first_card)
         if first_card == second_card:
             print("We got here")
         break
 print("Values")
+'''
